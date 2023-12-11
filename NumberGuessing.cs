@@ -29,7 +29,7 @@ namespace NumberGuessing
 
             // Processing
 
-            random = new Random();
+            random = new Random(); // according to specifications
             guessNumber = random.Next(1, 101);
 
             do
